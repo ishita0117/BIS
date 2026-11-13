@@ -1,5 +1,17 @@
 # BIS
-Program 1: Particle Swarm Optimization (PSO)
+Program 1: Genetic Algorithm (GA)
+Description
+Genetic Algorithm (GA) is an optimization technique inspired by natural selection and genetics. It maintains a population of candidate solutions called individuals. The fitness of each individual is evaluated, and fitter individuals are selected for reproduction. Crossover combines parent solutions to produce offspring, while mutation introduces random changes to maintain genetic diversity. This process continues over successive generations to obtain an optimal solution.
+Problem Statement
+To implement a Genetic Algorithm using Python to find the maximum value of a mathematical function by applying selection, crossover, and mutation over successive generations.
+Application Area
+Mathematical Function Optimization: Finding the maximum value of \(f(x)=x\sin(10\pi x)+1\).
+Research Paper
+Mühlenbein, H., Schomisch, M., & Born, J. (1991). The Parallel Genetic Algorithm as Function Optimizer. Parallel Computing, 17(6–7), 619–632.
+Research Paper – GA
+
+
+Program 2: Particle Swarm Optimization (PSO)
 Description
 Particle Swarm Optimization (PSO) is a population-based optimization algorithm inspired by the social behavior of birds flocking and fish schooling. Each particle represents a potential solution and moves through the search space using its velocity, personal best position, and global best position. The particles collectively search for the optimal solution by continuously updating their positions and velocities.
 Problem Statement
@@ -11,7 +23,7 @@ Kennedy, J., & Eberhart, R. (1995). Particle Swarm Optimization. Proceedings of 
 Research Paper – PSOThe original PSO research introduced the algorithm for optimization using swarm behavior. 
 DOI+1
 
-Program 2: Ant Colony Optimization (ACO)
+Program 3: Ant Colony Optimization (ACO)
 Description
 Ant Colony Optimization (ACO) is a nature-inspired optimization algorithm based on the foraging behavior of ants. Artificial ants construct solutions by selecting paths based on pheromone trails and heuristic information such as distance. Shorter and better paths receive more pheromone, increasing their probability of being selected by future ants. Through repeated iterations, the algorithm identifies an optimal or near-optimal solution.
 Problem Statement
@@ -22,7 +34,7 @@ Research Paper
 Dorigo, M., Maniezzo, V., & Colorni, A. (1996). Ant System: Optimization by a Colony of Cooperating Agents. IEEE Transactions on Systems, Man, and Cybernetics – Part B, 26(1), 29–41.
 Research Paper – ACO
 
-Program 3: Cuckoo Search (CS)
+Program 4: Cuckoo Search (CS)
 Description
 Cuckoo Search (CS) is a nature-inspired optimization algorithm based on the brood parasitism of certain cuckoo species. It uses the concept of cuckoo eggs and host nests to generate and improve solutions. The algorithm uses Lévy flights to explore the search space and abandons a fraction of poor nests to maintain diversity and avoid local optima.
 Problem Statement
@@ -33,7 +45,7 @@ Research Paper
 Yang, X. S., & Deb, S. (2009). Cuckoo Search via Lévy Flights. Proceedings of the World Congress on Nature & Biologically Inspired Computing, 210–214.
 Research Paper – CS
 
-Program 4: Grey Wolf Optimizer (GWO)
+Program 5: Grey Wolf Optimizer (GWO)
 Description
 Grey Wolf Optimizer (GWO) is a swarm intelligence algorithm inspired by the social hierarchy and hunting behavior of grey wolves. It models four levels of hierarchy: alpha, beta, delta, and omega. The three best solutions, alpha, beta, and delta, guide the remaining wolves during the search process. Their positions are updated collaboratively to explore and exploit the search space and obtain an optimal solution.
 Problem Statement
@@ -44,16 +56,6 @@ Research Paper
 Mirjalili, S., Mirjalili, S. M., & Lewis, A. (2014). Grey Wolf Optimizer. Advances in Engineering Software, 69, 46–61.
 Research Paper – GWO
 
-Program 5: Genetic Algorithm (GA)
-Description
-Genetic Algorithm (GA) is an optimization technique inspired by natural selection and genetics. It maintains a population of candidate solutions called individuals. The fitness of each individual is evaluated, and fitter individuals are selected for reproduction. Crossover combines parent solutions to produce offspring, while mutation introduces random changes to maintain genetic diversity. This process continues over successive generations to obtain an optimal solution.
-Problem Statement
-To implement a Genetic Algorithm using Python to find the maximum value of a mathematical function by applying selection, crossover, and mutation over successive generations.
-Application Area
-Mathematical Function Optimization: Finding the maximum value of \(f(x)=x\sin(10\pi x)+1\).
-Research Paper
-Mühlenbein, H., Schomisch, M., & Born, J. (1991). The Parallel Genetic Algorithm as Function Optimizer. Parallel Computing, 17(6–7), 619–632.
-Research Paper – GA
 
 Program 6: Parallel Cellular Algorithm
 Description
